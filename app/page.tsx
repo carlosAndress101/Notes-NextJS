@@ -12,6 +12,7 @@ const HomePage = () => {
 
   useEffect(()=>{
     loadNotes();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
 
   return (
